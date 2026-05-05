@@ -1,0 +1,11 @@
+.wrapper {
+  position: relative;
+}
+
+.input {
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 10001;
+}

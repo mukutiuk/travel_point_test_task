@@ -1,0 +1,1 @@
+export { MovieDetailsLoading } from "./MovieDetailsLoading";

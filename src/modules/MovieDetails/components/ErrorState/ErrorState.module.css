@@ -1,0 +1,45 @@
+.full,
+.compact {
+  display: flex;
+  gap: 1rem;
+  padding: 1.25rem;
+  border: 1px solid rgba(189, 63, 76, 0.18);
+  border-radius: 18px;
+  color: #8a2432;
+  background: rgba(248, 220, 224, 0.82);
+}
+
+.full {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 20px;
+}
+
+.compact {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.full h3,
+.compact h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+}
+
+.full p,
+.compact p {
+  margin: 0;
+  color: rgba(95, 26, 35, 0.9);
+}
+
+.retry {
+  background: #b03045;
+}
+
+@media (max-width: 640px) {
+  .compact {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

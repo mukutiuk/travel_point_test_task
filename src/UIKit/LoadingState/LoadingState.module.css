@@ -1,0 +1,19 @@
+.full,
+.compact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.full {
+  flex-direction: column;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.compact {
+  justify-content: center;
+  font-size: 0.92rem;
+}

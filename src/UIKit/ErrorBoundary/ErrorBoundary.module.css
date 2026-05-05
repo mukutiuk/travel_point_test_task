@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  max-width: 540px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  color: #fff;
+  background: rgba(15, 16, 40, 0.3);
+  text-align: center;
+  backdrop-filter: blur(14px);
+}
+
+.card h1 {
+  margin: 0 0 1rem;
+}
+
+.card p {
+  margin: 0 0 1.5rem;
+  color: rgba(255, 255, 255, 0.82);
+}

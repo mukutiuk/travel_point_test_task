@@ -1,0 +1,41 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.pageGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.button {
+  min-width: 44px;
+}
+
+.pageButtonActive {
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent-soft), var(--accent));
+}
+
+.button:hover:not(:disabled) {
+  color: #fff;
+  background: var(--accent);
+  transform: translateY(-1px);
+}
+
+.gap {
+  color: var(--text-secondary);
+  font-weight: 700;
+}

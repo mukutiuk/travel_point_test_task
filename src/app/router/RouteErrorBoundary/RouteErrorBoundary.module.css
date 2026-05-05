@@ -1,0 +1,41 @@
+.page {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  max-width: 560px;
+  padding: 2rem;
+  border-radius: 24px;
+  color: #fff;
+  background: rgba(15, 16, 40, 0.25);
+  text-align: center;
+  backdrop-filter: blur(14px);
+}
+
+.code {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+}
+
+.card h1 {
+  margin: 0 0 0.8rem;
+}
+
+.card p {
+  margin: 0 0 1.5rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}

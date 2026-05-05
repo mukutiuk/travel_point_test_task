@@ -1,0 +1,26 @@
+.control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 10px;
+  background: #fff;
+  color: #333333;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease;
+}
+
+.control:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.control[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.control[type="number"]::-webkit-outer-spin-button,
+.control[type="number"]::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}

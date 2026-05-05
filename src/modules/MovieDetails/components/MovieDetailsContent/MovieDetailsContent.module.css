@@ -1,0 +1,89 @@
+.page {
+  min-height: 100vh;
+}
+
+.hero {
+  min-height: 100vh;
+  padding: 2rem 1rem 3rem;
+  background:
+    linear-gradient(180deg, rgba(15, 16, 40, 0.5), rgba(15, 16, 40, 0.85)),
+    linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-position: center;
+  background-size: cover;
+}
+
+.heroContent {
+  width: min(100%, var(--page-width));
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.backLink {
+  display: inline-flex;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.detailsCard {
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(14px);
+}
+
+.contentColumn {
+  min-width: 0;
+}
+
+.genreRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-bottom: 1.35rem;
+}
+
+.genre {
+  padding: 0.42rem 0.85rem;
+  border-radius: 999px;
+  color: var(--accent);
+  background: rgba(118, 75, 162, 0.1);
+  font-weight: 700;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.sectionTitle {
+  margin: 0 0 0.7rem;
+  color: var(--text-primary);
+}
+
+.sectionText {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .detailsCard {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 1rem;
+  }
+
+  .detailsCard {
+    padding: 1.25rem;
+    border-radius: 22px;
+  }
+}

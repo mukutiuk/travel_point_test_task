@@ -1,0 +1,1 @@
+export { createLazyRouteElement } from "./createLazyRouteElement";

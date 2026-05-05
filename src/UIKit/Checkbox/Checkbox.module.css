@@ -1,0 +1,18 @@
+.field {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+}
+
+.label {
+  color: #333333;
+  font-size: 0.95rem;
+  cursor: pointer;
+}

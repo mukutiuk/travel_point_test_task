@@ -1,0 +1,1 @@
+export { MovieDetailsInfoGrid } from "./MovieDetailsInfoGrid";
